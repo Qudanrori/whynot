@@ -9,6 +9,7 @@
         <meta content="" name="author">
         <meta content="" name="keywords">
         <meta content="width=device-width, initial-scale=1, maximum-scale=1" name="viewport">
+		<link rel="shortcut icon" href="play.ico">
         <!-- Creativex v1.0 || ex nihilo || June 2022 -->
         <!-- style start -->
         <link href="css/plugins.css" media="all" rel="stylesheet" type="text/css">
@@ -59,13 +60,13 @@
                                 <a class="navigation-state active" href="index.html">Главная</a>                            
                             </li>
                             <li>
-                                <a class="navigation-state" href="#">Информация</a>                            
+                                <a class="navigation-state" href="info.html">Информация</a>                            
                             </li>
                             <li>
                                 <a class="navigation-state" href="playlist.html">Плейлист</a>                            
                             </li>
                             <li>
-                                <a class="navigation-state" href="#">Контакты</a>                            
+                                <a class="navigation-state" href="contacts.html">Контакты</a>                            
                             </li>
                         </ul>
                     </div>
@@ -178,7 +179,8 @@
                     <!-- divider end -->
                     <!-- section subtitle start -->
                     <h2>	
-					Радиостанция Доброграда
+					Текущая песня: <a href="https://aska.ru-hoster.com:2199/tunein/whynot.pls" id="cc_strinfo_song_whynot" class="cc_streaminfo">Загрузка ...</a><br />
+					<br /><img id="cc_strinfo_trackimageurl_whynot" class="cc_streaminfo" /><br /><a href="#" id="cc_strinfo_trackbuyurl_whynot" class="cc_streaminfo"></a><br />
                     </h2>
                     <!-- section subtitle end -->
                 </div>
@@ -212,12 +214,13 @@
         <!-- scripts start -->
         <script src="js/plugins.js"></script> 
         <script src="js/creativex.js"></script>
+		<script language="javascript" type="text/javascript" src="https://aska.ru-hoster.com:2199/system/streaminfo.js"></script>
         <!-- scripts end -->
 		  <footer class="mt-auto text-white-50">
 
     <div id="radioheart-player"
      class="panel-black width1"
-     data-stream="https://listen.myrh.ru/whynot"
+     data-stream="http://misato.ru-hoster.com:8024/stream"
      data-autostart="false"
      data-volume="0.2"
      data-logo=""
@@ -247,6 +250,7 @@
         </div>
     </div>
 </div>
+
 
 <script src="https://player.radioheart.ru/js/app.js"></script>
 <link type="text/css" rel="stylesheet" href="https://player.radioheart.ru/css/app.css">    
